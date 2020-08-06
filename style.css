@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: bisque;
+    font-family: cursive;
+}
+a{
+    color: rgba(255,0,0,0.7);
+    border-top: seagreen; width: 50%;
+}
+#Turkey{
+    background-color: cadetblue;
+    font-size: 50px;
+    color: firebrick;
+}
+#Etymology{
+    background-color: cadetblue;
+    font-size: 50px;
+    color: firebrick;
+}
+#Seljuks{
+    background-color: cadetblue;
+    font-size: 50px;
+    color: firebrick;
+}
+@media screen and (max-width: 900px) {
+    nav{
+        background-color: blueviolet;
+    }
+    img{
+        width: 100%;
+    }
+    #firstnav{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 1em;
+    }
+}
